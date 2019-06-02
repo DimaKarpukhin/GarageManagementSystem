@@ -1,32 +1,15 @@
 # "Garage Manager"
-### "Garage Manager" is an example of a garage management system, that allows the tracking of different car repair stages in real time.
+### "Garage Manager" is a garage management system, that allows the real-time tracking and monitoring of different car repair stages.
 
 --------------
-**T **
-rules of the game are similar to the rules of "Bulls and Cows" game.
-1. Choose a number of desired  guesses(4 up 10) by clicking the ***"Number of chances:"*** button and then press ***"Start"***.
-<p align="center">
-  <img src="https://github.com/DimaKarpukhin/BoolPgia/blob/master/Screenshots/screen1.png"/>
-</p>
+**This project applies the principles of object-oriented programming and has a clear separation of the logical part _(GarageLogic)_ and UI_(ConsoleUI)_. That makes possible to use it with other user interfaces and not just as a console application.**
 
-2. The system will choose a random sequence of 4 different colors that will be hidden behind the black buttons on the top.
-<p align="center">
-  <img src="https://github.com/DimaKarpukhin/BoolPgia/blob/master/Screenshots/screen2.png"/>
-</p>
+**The using of polymorphism in the logical part _(ConsulUI)_ makes this project more general and flexible to the future changes and updates**
 
-3. Try to guess the sequence by clicking each button in the row and picking it's color from the displayed window.
-<p align="center">
-  <img src="https://github.com/DimaKarpukhin/BoolPgia/blob/master/Screenshots/screen3.png"/>
-</p>
-
-4. After you click  the ***"-->>"*** button, the system will analyse your guess and if any color was chosen correctly, it will color the small buttons on the right side. ***Black*** - for the color that was chosen and placed correctly. ***Yellow*** - for the color that was chosen correctly, but placed incorrectly.
-<p align="center">
-  <img src="https://github.com/DimaKarpukhin/BoolPgia/blob/master/Screenshots/screen4.png"/>
-</p>
-
-5. The game will ended if the guess is correct or if you have no more chances. At the end of the game the system will switch the black buttons on the top to the initial sequence.
+## UML Class diagram
 
 <p align="center">
-  <img src="https://github.com/DimaKarpukhin/BoolPgia/blob/master/Screenshots/screen5.png"/>
-  <img src="https://github.com/DimaKarpukhin/BoolPgia/blob/master/Screenshots/screen6.png"/>
+  <img src="https://github.com/DimaKarpukhin/GarageManager/blob/master/Images/ClassDiagram1.png"/>
+  <img src="https://github.com/DimaKarpukhin/GarageManager/blob/master/Images/ClassDiagram2.png"/>
 </p>
+
